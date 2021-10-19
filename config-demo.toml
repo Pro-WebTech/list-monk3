@@ -1,0 +1,15 @@
+[app]
+    # Interface and port where the app will run its webserver.
+    address = "0.0.0.0:9000"
+
+# Database.
+[db]
+    host = "194.113.72.164"
+    port = 5432
+    user = "testtmonk"
+    password = "GbydiiKCW9MQgA4dYL8FXvDkXQkf6i"
+    database = "testtmonk"
+    ssl_mode = "disable"
+    max_open = 25
+    max_idle = 25
+    max_lifetime = "300s"
